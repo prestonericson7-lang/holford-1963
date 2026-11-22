@@ -80,3 +80,20 @@ as "nearest average" sorts every held-out picture, and the learning machine, not
 finding about these two rebuilds, each with my own choices (the 1967 one's six cosines and its threshold; this one's seven octave bands
 and its gain control), on drawn shapes, not real film. Why Scope moved from the frequency domain to the time domain between 1963 and
 1967 is in neither patent, and this does not answer it.
+
+## The third check, 3:01 PM (before publishing; MEASURED; verify_float.py, results/verify_float.json)
+
+Two checks were done before this one: fresh clones of this repository and of conflex-1965 reproduce every results file byte for byte, and
+every commit is clean of anything private. This one asks whether the findings belong to the machine or to my integer arithmetic: every lamp
+and every circular harmonic recomputed with floating-point Fourier transforms (NumPy's), sharing nothing with holford.analyze but the scan
+and the band edges.
+
+- H3 and H4 stand in floating point exactly: the finest band's strongest harmonic is 10 a turn for all 12 wheels, and 8 or 16 a turn for
+  the railyard's turns, the same at every turn. The middle bands' 19 a turn comes out for the same 8 wheels in band 3 and the same 8 in band 4.
+- Bands 0 and 1, the two coarsest, are not steady under a change of arithmetic: their strongest harmonics flip for 8 of the 12 wheels. No
+  grade and no claim here rests on them.
+- The plain nearest-mean rule names 119 of 120 on the floating-point lamps, not all 120. (Beside the H5 and H6 grades above: "120 of
+  120, every held-out picture right" and "sorts every held-out picture" are true of the integer lamps; on the same machine in floating point
+  it is 119. The plain rule is at the edge of perfect, not past it. The lines above are kept as written.)
+- (Beside "What is being rebuilt": "the first integral scanner" is more than I can show. It is the integral scanner Scope's 1967
+  prenormalizer was built on; whether anyone scanned in line integrals before it, I have not looked. The line is kept as written.)
