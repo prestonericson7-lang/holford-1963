@@ -35,3 +35,26 @@ the same twice a turn.
 
 **H6 (50%).** CONFLEX on the 1963 lamps does at least as well on those 120 pictures as it did on the 1967 prenormalizer's first-design counts
 (83.3%).
+
+## Grades of H0 to H4, 2:51 PM (MEASURED; results/h0.json and h1_h4.json; test_h0.py, test_h1_h4.py)
+
+- **H0: HELD.** Three runs, each in a fresh Python, give the same digest of every lamp (SHA-256 de0e5769f279...). The integer transform's band
+  powers lie within 0.088% of a floating-point one.
+- **H1: FAILED, on one lamp.** Over the railyard's 12 turns, bands 0 to 5 stay within 6.6% of their means (bands 0 to 3 within
+  0.4%); band 6, the finest, which holds 0.18% of the power, moves by 44.8%.
+- **H2: HELD.** Over the 13 shifts every lamp stays within 13.5% of its mean, band 6 the most.
+- **H3: HELD.** All 12 wheels, at every size, place and turn: the strongest circular harmonic in band 6 is 10 a turn, not the patent's twenty.
+- **H4: FAILED.** The railyard's strongest circular harmonic in band 6 is 8 or 16 a turn at every one of its turns, never 2.
+
+**What the grades leave out, said plainly** (exploratory, measured before these grades were written: explore_h3_h4.py,
+results/explore_h3_h4.json). H4's reason is the ladder. At a turn of 0, the pulse carrying the most of band 6's power over the turn
+(29%) is the grid line at 313.8 degrees, 1.2 degrees from lying along the ladder track (at 45 degrees, its lines meet
+the scan along 135 and 315). The lines nearest lying along the tracks (92.3 and 267.7 degrees, 2.3 degrees off) carry
+9.8% and 9.4%. The tracks twice a turn and the ladder twice, 45 degrees apart in pairs, make 8 and 16 a turn the strongest
+harmonics. I counted the tracks and forgot the one line across their ends.
+
+And the patent's twenty is real, in the middle bands. With 39 lines, band 3 peaks at 19 a turn for 8 of the 12 wheels and band 4 for
+8: 19 is where twenty a turn lands when 39 lines a turn fold it. Scanned with 403 lines (nothing folds below 201 a turn), band 3
+peaks at 20 a turn for 8 of the 12 wheels and band 4 for 7, while band 6 stays at 10 for all 12. So the patent's wheel gives
+ten a turn in the finest band and twenty in the middle ones; why twenty there is my reading, not measured: a spoke lining up with the scan
+and a spoke lying square to it take turns every 18 degrees.
