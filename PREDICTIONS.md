@@ -58,3 +58,25 @@ And the patent's twenty is real, in the middle bands. With 39 lines, band 3 peak
 peaks at 20 a turn for 8 of the 12 wheels and band 4 for 7, while band 6 stays at 10 for all 12. So the patent's wheel gives
 ten a turn in the finest band and twenty in the middle ones; why twenty there is my reading, not measured: a spoke lining up with the scan
 and a spoke lying square to it take turns every 18 degrees.
+
+## Grades of H5 and H6, 2:52 PM (MEASURED; results/h5_h6.json; h5_h6.py)
+
+(Beside the H0 to H4 grades above, 2:52 PM: the two track shares are paired the wrong way round there. The line at 267.7 degrees carries 9.8%
+and the one at 92.3 degrees 9.4%. The line is kept as written.)
+
+The pictures are conflex-1965's own: the same code and seeds, and checked. The 1967 first design's six counts, computed here, match
+conflex-1965's saved counts for every one of the 240.
+
+- **H5: HELD.** CONFLEX on all 42 lamps names 111 of the 120 held-out pictures right, 92.5%. Railyards 30 of 30, road grids
+  30 of 30, patchworks 27 of 30 (3 called road grids), airfields 24 of 30 (6 called road grids).
+- **H6: HELD.** 92.5% against the 1967 first design's 83.3%, on the same pictures, with the same CONFLEX and the same wiring.
+
+**Beside, not graded.** The first level's 7 lamps alone: 92.5%. Over six wirings: 90.8 to 95.0%. And the plain
+nearest-mean rule on log10(1 + lamp): 120 of 120, every held-out picture right. On the 1967 counts, the same rule got 90.0%
+(first design) and 89.2% (A2).
+
+**What the grades leave out, said plainly.** On this ground, Holford's 1963 lamps carry more than the 1967 counters did. A rule as plain
+as "nearest average" sorts every held-out picture, and the learning machine, not the lamps, is what holds the score to 92.5%. That is a
+finding about these two rebuilds, each with my own choices (the 1967 one's six cosines and its threshold; this one's seven octave bands
+and its gain control), on drawn shapes, not real film. Why Scope moved from the frequency domain to the time domain between 1963 and
+1967 is in neither patent, and this does not answer it.
