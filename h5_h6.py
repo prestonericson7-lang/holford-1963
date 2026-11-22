@@ -5,7 +5,8 @@ import numpy as np
 import holford as H, prenorm as P, shapes as S
 from conflex import Conflex
 KN, PER, ND = 4, 30, 4000
-CONFLEX_COUNTS = "D:/work/research/conflex-1965/results/p3p4_counts.json"
+import os
+CONFLEX_COUNTS = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "conflex-1965", "results", "p3p4_counts.json")   # a conflex-1965 checkout beside this one
 
 def draw(seed):
     rng = np.random.Generator(np.random.PCG64(seed)); out = []
