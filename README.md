@@ -32,7 +32,7 @@ Every choice the patent leaves open was fixed in [DESIGN.md](DESIGN.md) before a
 ## Running it
 
 Python 3 and NumPy. `test_h0.py`, `test_h1_h4.py`, `explore_h3_h4.py`, then `h5_h6.py`, which checks its pictures against conflex-1965's
-saved counts and so expects a [conflex-1965](https://github.com/prestonericson7-lang/conflex-1965) checkout beside this one. About 20 seconds
+saved counts and so expects a [conflex-1965](https://github.com/prestonericson7-lang/conflex-1965) checkout beside this one. About 10 seconds
 on one CPU core, all told. All of the analyzer's arithmetic is in integers, and two runs give the same numbers bit for bit (H0).
 
 | File | What it is |
