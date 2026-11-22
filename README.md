@@ -18,8 +18,8 @@ Every choice the patent leaves open was fixed in [DESIGN.md](DESIGN.md) before a
 
 - **The patent's own example holds, in its own way.** Its ten-spoked wheel "will generate twenty distinct pulses during one cycle of data
   extraction," "regardless of the size of the image and regardless of the position or orientation of the image on the field." In the
-  rebuild, the finest band sees ten a turn for every size, place and turn (H3 held). The middle bands see twenty: folded to 19 by the
-  patent's 39 grid lines a turn, and plain 20 when the scan has 403 lines.
+  rebuild, the finest band sees ten a turn for every size, place and turn (H3 held). The middle bands of most wheels see twenty: folded
+  to 19 by the patent's 39 grid lines a turn, and plain 20 when the scan has 403 lines.
 - **The property filters are steady where the patent says they should be.** Moving the railyard by up to 8 pixels changes no lamp by more
   than 13.5% (H2 held). Turning it leaves six of the seven lamps within 6.6%; only the finest band, 0.18% of the power, moves more (H1
   failed on that one lamp).
@@ -27,7 +27,7 @@ Every choice the patent leaves open was fixed in [DESIGN.md](DESIGN.md) before a
   CONFLEX on Holford's 42 lamps names 92.5% of the held-out ones right, against 83.3% on the 1967 time-domain counts (H5 and H6 held). Over
   six random wirings it ranges from 90.8 to 95.0%. A plain nearest-mean rule on the lamps names all 120.
 - **One prediction failed for a reason worth keeping.** The railyard's strongest circular harmonic is 8 or 16 a turn, not 2 (H4 failed). The
-  single ladder track across the tracks' ends shows up in the finest band as strongly as the eight tracks themselves.
+  single ladder track across the tracks' ends shows up in the finest band at least as strongly as the eight tracks themselves.
 
 ## Running it
 
