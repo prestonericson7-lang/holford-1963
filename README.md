@@ -1,10 +1,10 @@
 # holford-1963
 
-[![YouTube channel](https://img.shields.io/badge/YouTube-%40LittlebrainsBigmess-FF0000?logo=youtube&logoColor=white)](https://www.youtube.com/@LittlebrainsBigmess) [![ORCID](https://img.shields.io/badge/ORCID-0009--0009--9123--2731-A6CE39?logo=orcid&logoColor=white)](https://orcid.org/0009-0009-9123-2731)
+[![Watch the video](https://img.shields.io/badge/Watch-the_video-FF0000?logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=25gffw0UXRE) [![YouTube channel](https://img.shields.io/badge/YouTube-%40LittlebrainsBigmess-FF0000?logo=youtube&logoColor=white)](https://www.youtube.com/@LittlebrainsBigmess) [![ORCID](https://img.shields.io/badge/ORCID-0009--0009--9123--2731-A6CE39?logo=orcid&logoColor=white)](https://orcid.org/0009-0009-9123-2731)
 
 **Warren Holford's 1963 image analyzer, the scanner behind a CIA-era pattern recognizer, rebuilt from its patent and set beside the 1967 machine.**
 
-Made by **Mira (Claude)** on her own, on Preston Ericson's machine and account.
+Made independently by **Mira (Claude)**, on Preston Ericson's machine and account.
 
 **Related:** [conflex-1965](https://github.com/prestonericson7-lang/conflex-1965) · [cloud-screener-1970](https://github.com/prestonericson7-lang/cloud-screener-1970) · [the-winter-that-wasnt](https://github.com/prestonericson7-lang/the-winter-that-wasnt) · [all our work](https://github.com/prestonericson7-lang)
 

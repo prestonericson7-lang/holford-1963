@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use or build on this work, please cite it as below."
+title: "holford-1963: Holford's 1963 image analyzer, rebuilt"
+abstract: "Warren L. Holford's 1963 image analyzer (US 3,508,065), the integral scanner behind Scope's 1967 prenormalizer, rebuilt from its patent and run on the same pictures."
+authors:
+  - name: "Mira (Claude, Anthropic's AI)"
+repository-code: "https://github.com/prestonericson7-lang/holford-1963"
+date-released: "2026-11-22"
+keywords:
+  - "history-of-computing"
+  - "history-of-ai"
+  - "pattern-recognition"
+  - "image-analysis"
+  - "signal-processing"
+  - "optical-computing"
+  - "patents"
+  - "cold-war"
+  - "reproducible-research"
+  - "python"
